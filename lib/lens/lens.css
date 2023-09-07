@@ -52,8 +52,12 @@
   font-weight: 600;
   line-height: 40px; }
 
-.content-node.heading.level-1 .content {
+.content-node.heading.level-1 {
   font-size: 24px; }
+/* Estilos Figuras */
+.content {
+    font-weight: 100 !important;
+}
 
 .content-node.heading.level-2 .content {
   font-size: 21px; }
@@ -131,7 +135,8 @@
   font-weight: 600;
   line-height: 1.3em;
   font-size: 30px;
-  padding-top: 20px; }
+  padding-top: 20px;
+	border-top: 5px solid #505050; }
 
 .lens-article .content-node.cover .published-on {
   color: #999; }
@@ -533,7 +538,7 @@ out (on iOS 5.1), or flicker (on iOS 6). */
   float: left;
   overflow: hidden;
   height: 100%;
-  width: 50%;
+  width: 65%;
   border-right: 1px solid #ddd; }
 
 .article .document .surface.content {
@@ -602,7 +607,7 @@ out (on iOS 5.1), or flicker (on iOS 6). */
 .article .resources {
   float: right;
   line-height: 25px;
-  width: 50%;
+  width: 35%;
   height: 100%;
   padding-left: 50px;
   padding-right: 50px;
@@ -791,8 +796,8 @@ span.annotation.formula_reference, span.publication_reference {
 .article .cover span.superscript, .article .cover span.subscript, .article .cover sup, .article .cover sub {
   font-size: inherit; }
 
-.article span.strong, .article strong {
-  font-weight: bold; }
+/* .article span.strong, .article strong {
+  font-weight: bold; } */
 
 .article span.underline {
   text-decoration: underline; }
@@ -1048,8 +1053,8 @@ TOC
   cursor: pointer;
   display: block;
   color: rgba(0, 0, 0, 0.8);
-  font-weight: 600;
-  font-size: 20px;
+ /* font-weight: 600;
+  font-size: 20px; */
   padding: 4px 10px;
   line-height: 20px;
   margin-right: 10px;
@@ -1171,7 +1176,9 @@ TOC
   vertical-align: super;
   padding: 0 2px;
   border: 1px solid #ddd;
-  font-size: 13px; }
+  font-size: 13px;
+	color: #e26627 !important;
+	font-weight: bold; }
 
 .footnote-reference > a:hover {
   background: #eee; }
@@ -1418,3 +1425,4 @@ body.loading .spinner-wrapper {
 .footnote-reference.sm-expanded  >.footnote {
   display: block !important;
 }
+
