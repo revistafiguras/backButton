@@ -40,6 +40,7 @@
 {/literal}</script>
 ```
 # Agregar css en lens.css
+```
 a.go-back {
   top: 0;
   left: 20px;
@@ -66,3 +67,4 @@ a.go-back:hover span {
   display: inline;
   padding-left: 6px;
   padding-right: 6px; }
+```
