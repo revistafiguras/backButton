@@ -27,5 +27,6 @@
 		});
 		app.start();
 		window.app = app;
+		$("body").append('<a href="./" class="go-back"><i class="fa fa-arrow-le></i> <span>Regresar</span></a>');
 	});
 {/literal}</script>
